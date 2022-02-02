@@ -25,10 +25,10 @@ This doesn't work that well
 > We're living the future so
 > the present is our past.
 
+{: .greyHighlight}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. {#identifier .greyHighlight}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.{#identifier .greyHighlight}
-
-### Footnotes {#identifier .greyHighlight}
+### Footnotes 
 Here's a sentence with a footnote. [^1]  
   
 [^1]: This is the footnote.
