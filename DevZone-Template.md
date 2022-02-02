@@ -1,6 +1,6 @@
 Welcome to the full test template for the github md import feature of AEM. This document covers all the styles availalbe and how to implement 
 
-## Headers 3
+## Headers 2b
 Make sure you don't use the single # for any headers. 
 Always start with the ##.
 
