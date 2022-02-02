@@ -1,6 +1,6 @@
 Welcome to the full test template for the github md import feature of AEM. This document covers all the styles availalbe and how to implement 
 
-## Headers 2
+## Headers 3
 Make sure you don't use the single # for any headers. 
 Always start with the ##.
 
@@ -24,12 +24,11 @@ _You **can** combine them_
 This doesn't work that well
 > We're living the future so
 > the present is our past.
-{: .greyHighlight }
 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.{: .greyHighlight }
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.{#identifier .greyHighlight}
 
-### Footnotes
+### Footnotes {#identifier .greyHighlight}
 Here's a sentence with a footnote. [^1]  
   
 [^1]: This is the footnote.
