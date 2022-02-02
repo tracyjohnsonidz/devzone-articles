@@ -1,12 +1,13 @@
-## Header on the page
+## Headers
 Make sure you don't use the single # for any headers. 
 Always start with the ##.
 
-### Sub header level 3
-#### Sub header level 4
+
+### Sub header level 3 (H3)
+#### Sub header level 4 (H4)
 ##### Sub header Level 5 (rarely used) 
 
-
+...
 ## General text styling
 
 *This text will be italic*
@@ -18,6 +19,7 @@ __This will also be bold__
 _You **can** combine them_
 
 ### Block quotes
+This doesn't work that well
 > We're living the future so
 > the present is our past.
 
