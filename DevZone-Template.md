@@ -1,3 +1,6 @@
+{#note .greyHighlight}
+
+
 ## Headers
 Make sure you don't use the single # for any headers. 
 Always start with the ##.
@@ -22,6 +25,9 @@ _You **can** combine them_
 This doesn't work that well
 > We're living the future so
 > the present is our past.
+
+**Notes**
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.{#note}
 
 ### Footnotes
 Here's a sentence with a footnote. [^1]  
