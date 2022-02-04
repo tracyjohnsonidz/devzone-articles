@@ -1,4 +1,4 @@
-**Version 1.7**
+**Version 1.8**
 
 Welcome to the full test template for the github md import feature of AEM. This document covers all the styles availalbe and how to implement 
 
@@ -175,6 +175,13 @@ An example of a horizontal rule
 
 ## Tables
 
+```markdown
+| Syntax | Description |  
+| ----------- | ----------- |  
+| Header | Title |  
+| Paragraph | Text |
+```
+
 | Syntax | Description |  
 | ----------- | ----------- |  
 | Header | Title |  
@@ -241,6 +248,7 @@ Go to the youtube video and copy the embed code. Just replace the iframe src url
   </div>
 </div>
 
+<br>
 
 You can also use this embed code for brightcove videos. Just replace the videoid= # in the embed code below
 To find the video ID, simply right click on the video on developer.intel.com and select **Player Information**. Video ID value is listed under Source.
