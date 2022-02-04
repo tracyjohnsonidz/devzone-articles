@@ -15,6 +15,15 @@ Always start with the ##.
 ***
 
 ## General text styling
+```markdown
+*This text will be italic*
+_This will also be italic_
+
+**This text will be bold**
+__This will also be bold__
+
+_You **can** combine them_
+```
 
 *This text will be italic*
 _This will also be italic_
@@ -25,11 +34,15 @@ __This will also be bold__
 _You **can** combine them_
 
 Superscript and Subscript doesn't seem to work at the moment.
-
+```markdown
 Superscript
 H~2~O
 
 Subscript
+X^2^
+```
+
+H~2~O
 X^2^
 
 
@@ -47,10 +60,19 @@ My favorite company is [Intel](https://www.intel.com).
 ***
 ### Block quotes
 This doesn't work with our template. We have requested some code updates so that block quotes actually render properly on articles. I will update this file once that is done.
+
+```markdown
+> We're living the future so
+> the present is our past.
+```
+
 > We're living the future so
 > the present is our past.
 
 Another Item we are exploring is the ability to call the css that is used on the site. This isn't working yet. I will update once we have the functionality in place. There are two options IT is exploring. 
+
+### CSS Attribution - Requested
+We have requested that IT add this feature so we can call certain css properties into markdown.
 
 {: .greyHighlight}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -60,10 +82,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ***
 ### Footnotes 
 Footnotes aren't working as expected. I have raised a ticket with IT to see if they can enable this feature.
+```markdown
 Here's a sentence with a footnote. [^1]  
   
 [^1]: This is the footnote.
-
+```
+Here's a sentence with a footnote. [^2]  
+  
+[^2]: This is another footnote to go with the first.
 
 <br><br>
 ***
