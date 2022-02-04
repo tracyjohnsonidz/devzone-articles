@@ -1,4 +1,4 @@
-**Version 1.6**
+**Version 1.7**
 
 Welcome to the full test template for the github md import feature of AEM. This document covers all the styles availalbe and how to implement 
 
@@ -219,7 +219,7 @@ To include an image from intel.com, you can do a relative link. Make sure you pu
 <br>
 You can also choose to host your screenshots, diagrams, terminal window images in your repo. Just remember, you are now supporting the live site. Don't move or delete images without updating your article. Also, make sure to use the full github URL and not a relative path.
 
-![This is your Alt Text](https://github.com/tracyjohnsonidz/devzone-articles/blob/main/diagram-full-workflow-16x9.webp)
+![This is your Alt Text](https://raw.githubusercontent.com/tracyjohnsonidz/devzone-articles/main/diagram-full-workflow-16x9.webp)
 
 
 ## Videos
