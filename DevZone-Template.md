@@ -1,4 +1,4 @@
-**Version 1.8**
+**Version 1.9**
 
 Welcome to the full test template for the github md import feature of AEM. This document covers all the styles availalbe and how to implement 
 
@@ -263,7 +263,15 @@ You can also use this embed code for brightcove videos. Just replace the videoid
 To find the video ID, simply right click on the video on developer.intel.com and select **Player Information**. Video ID value is listed under Source.
 
 ```markdown
-<div style="position: relative; display: block; max-width: 900px;"><div style="padding-top: 56.25%;"><iframe src="https://players.brightcove.net/740838651001/default_default/index.html?videoId=6286027295001" allowfullscreen="" allow="encrypted-media" style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; width: 100%; height: 100%;"></iframe></div></div>
+<div style="position: relative; display: block; max-width: 900px;">
+    <div style="padding-top: 56.25%;">
+      <iframe src="https://players.brightcove.net/740838651001/default_default/index.html?videoId=6286027295001" allowfullscreen="" allow="encrypted-media" style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; width: 100%; height: 100%;"></iframe>
+  </div>
+</div>
 ```
 
-<div style="position: relative; display: block; max-width: 900px;"><div style="padding-top: 56.25%;"><iframe src="https://players.brightcove.net/740838651001/default_default/index.html?videoId=6286027295001" allowfullscreen="" allow="encrypted-media" style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; width: 100%; height: 100%;"></iframe></div></div>
+<div style="position: relative; display: block; max-width: 900px;">
+  <div style="padding-top: 56.25%;">
+    <iframe src="https://players.brightcove.net/740838651001/default_default/index.html?videoId=6286027295001" allowfullscreen="" allow="encrypted-media" style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; width: 100%; height: 100%;"></iframe>
+  </div>
+</div>
