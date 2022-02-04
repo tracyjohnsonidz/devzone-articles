@@ -77,11 +77,9 @@ Some `inline code` if you need to put inside a sentence.
 
 
 If you have javascript:
-```markdown
 ```javascript
 // An highlighted block
 var foo = 'bar';
-```
 ```
 
 A very common one on the DevZone is bash
@@ -91,7 +89,11 @@ export PATH=${I_MPI_ROOT}/libfabric/bin:${I_MPI_ROOT}/bin:$PATH
 export LD_LIBRARY_PATH=${I_MPI_ROOT}/libfabric:${I_MPI_ROOT}:$LD_LIBRARY_PATH
 export FI_PROVIDER_PATH=${I_MPI_ROOT}/libfabric
 ```
-The Full list of available skins:
+
+<details>
+  <summary>Expand to see the full list of available skins</summary>
+  <br>
+
 * plaintext
 * abap
 * actionscript
@@ -145,6 +147,8 @@ The Full list of available skins:
 * vim
 * xmlxhtml
 * yaml
+</details>
+
 
 
 ## Lists
