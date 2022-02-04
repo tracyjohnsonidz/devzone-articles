@@ -1,4 +1,4 @@
-**Version 1.5**
+**Version 1.6**
 
 Welcome to the full test template for the github md import feature of AEM. This document covers all the styles availalbe and how to implement 
 
@@ -217,6 +217,10 @@ To include an image from intel.com, you can do a relative link. Make sure you pu
 ![This is your Alt Text](/content/dam/www/central-libraries/us/en/images/oneapi-kits20211-4x3-rwd.png)
 
 <br>
+You can also choose to host your screenshots, diagrams, terminal window images in your repo. Just remember, you are now supporting the live site. Don't move or delete images without updating your article.
+
+![This is your Alt Text](diagram-full-workflow-16x9.webp)
+
 
 ## Videos
 Go to the youtube video and copy the embed code. Just replace the iframe src url with your youtube video URL.
@@ -228,7 +232,8 @@ Go to the youtube video and copy the embed code. Just replace the iframe src url
       style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
   </div>
 </div>
-```markdown
+```
+
 <div>
   <div style="position:relative;padding-top:56.25%;">
     <iframe src="https://www.youtube.com/embed/c7st0drv54U" frameborder="0" allowfullscreen
