@@ -1,6 +1,7 @@
-**Version 1.9**
+**Version 2.0**
 
-Welcome to the full test template for the github md import feature of AEM. This document covers all the styles availalbe and how to implement 
+Welcome to the full test template for the github md import feature of AEM. This document covers all the styles availalbe and how to implement.
+Note: when loading github url into your page, it may take a number of tries to get the content to refresh. I am working with IT to resolve the bug. If you have just done an update in GitHub, it's best to wait for a few minutes to make sure you sync the latest version.
 
 ## Headers (H2)
 Make sure you don't use the single # for any headers. Only the title of your article should be an H1. This isn't just a visual thing, this will impact your SEO score in google.
@@ -71,7 +72,8 @@ This doesn't work with our template. We have requested some code updates so that
 > the present is our past.
 
 Another Item we are exploring is the ability to call the css that is used on the site. This isn't working yet. I will update once we have the functionality in place. There are two options IT is exploring. 
-
+<br><br>
+***
 ### CSS Attribution - Requested
 We have requested that IT add this feature so we can call certain css properties into markdown.
 
@@ -96,7 +98,7 @@ Here's a sentence with a footnote. [^2]
 ***
 ## Examples of math in .md
 
-This expression $$\sum_{i=1}^n X_i$$ is inlined but doesn't seem to work. Will flag with IT
+This expression $\sum_{i=1}^n X_i$ is inlined but doesn't work at the moment.
 
 
 $$
