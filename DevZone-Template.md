@@ -58,7 +58,7 @@ Here's a sentence with a footnote. [^1]
 
 ## Examples of math in .md
 
-This expression $\sum_{i=1}^n X_i$ is inlined but doesn't seem to work. Will flag with IT
+This expression $$\sum_{i=1}^n X_i$$ is inlined but doesn't seem to work. Will flag with IT
 
 
 $$
@@ -67,7 +67,13 @@ $$
 
 
 ## Code on your page
+Adding code into your sentence is simple. 
+```markdown
+`this is your code`
+```
+Example
 Some `inline code` if you need to put inside a sentence.
+
 
 If you have javascript:
 ```javascript
