@@ -1,4 +1,4 @@
-**Version 1.4**
+**Version 1.5**
 
 Welcome to the full test template for the github md import feature of AEM. This document covers all the styles availalbe and how to implement 
 
@@ -194,10 +194,16 @@ This does work within the article template. THe arrow is a bit large, but I will
 
 
 ## Videos
-[embed]https://www.youtube.com/embed/c7st0drv54U[/embed]
+Go to the youtube video and copy the embed code. Just replace the iframe src url with your youtube video URL.
 
-Go to the youtube video and copy the embed code. 
-
+```markdown
+<div>
+  <div style="position:relative;padding-top:56.25%;">
+    <iframe src="https://www.youtube.com/embed/c7st0drv54U" frameborder="0" allowfullscreen
+      style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+  </div>
+</div>
+```markdown
 <div>
   <div style="position:relative;padding-top:56.25%;">
     <iframe src="https://www.youtube.com/embed/c7st0drv54U" frameborder="0" allowfullscreen
@@ -205,8 +211,12 @@ Go to the youtube video and copy the embed code.
   </div>
 </div>
 
-You can also use this embed code for brightcove videos. Just replace the videoid= #
+
+You can also use this embed code for brightcove videos. Just replace the videoid= # in the embed code below
 To find the video ID, simply right click on the video on developer.intel.com and select **Player Information**. Video ID value is listed under Source.
 
+```markdown
+<div style="position: relative; display: block; max-width: 900px;"><div style="padding-top: 56.25%;"><iframe src="https://players.brightcove.net/740838651001/default_default/index.html?videoId=6286027295001" allowfullscreen="" allow="encrypted-media" style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; width: 100%; height: 100%;"></iframe></div></div>
+```
 
 <div style="position: relative; display: block; max-width: 900px;"><div style="padding-top: 56.25%;"><iframe src="https://players.brightcove.net/740838651001/default_default/index.html?videoId=6286027295001" allowfullscreen="" allow="encrypted-media" style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; width: 100%; height: 100%;"></iframe></div></div>
