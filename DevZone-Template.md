@@ -51,7 +51,7 @@ Subscript example: X^2^
 ***
 ### Links
 ```markdown
-My favorite company is [Intel](https://www.intel.com).
+[Intel](https://www.intel.com).
 ```
 Example:
 My favorite company is [Intel](https://www.intel.com).
