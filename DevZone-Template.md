@@ -1,4 +1,5 @@
-**Version 1.3**
+**Version 1.4**
+
 Welcome to the full test template for the github md import feature of AEM. This document covers all the styles availalbe and how to implement 
 
 ## Headers (H2)
@@ -196,8 +197,13 @@ This does work within the article template. THe arrow is a bit large, but I will
 [embed]https://www.youtube.com/embed/c7st0drv54U[/embed]
 
 Go to the youtube video and copy the embed code. 
-<iframe style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; width: 100%; height: 100%;" src="https://www.youtube.com/embed/c7st0drv54U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<div>
+  <div style="position:relative;padding-top:56.25%;">
+    <iframe src="https://www.youtube.com/embed/c7st0drv54U" frameborder="0" allowfullscreen
+      style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+  </div>
+</div>
 
 You can also use this embed code for brightcove videos. Just replace the videoid= #
 To find the video ID, simply right click on the video on developer.intel.com and select **Player Information**. Video ID value is listed under Source.
