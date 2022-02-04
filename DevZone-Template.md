@@ -11,6 +11,7 @@ Always start with the ##.
 #### Sub header level 4 (H4)
 ##### Sub header Level 5 (rarely used) 
 
+<br><br>
 ***
 
 ## General text styling
@@ -31,6 +32,9 @@ H~2~O
 Subscript
 X^2^
 
+
+<br><br>
+***
 ### Links
 ```markdown
 My favorite company is [Intel](https://www.intel.com).
@@ -38,6 +42,9 @@ My favorite company is [Intel](https://www.intel.com).
 Example:
 My favorite company is [Intel](https://www.intel.com).
 
+
+<br><br>
+***
 ### Block quotes
 This doesn't work with our template. We have requested some code updates so that block quotes actually render properly on articles. I will update this file once that is done.
 > We're living the future so
@@ -49,6 +56,8 @@ Another Item we are exploring is the ability to call the css that is used on the
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 
+<br><br>
+***
 ### Footnotes 
 Footnotes aren't working as expected. I have raised a ticket with IT to see if they can enable this feature.
 Here's a sentence with a footnote. [^1]  
@@ -56,6 +65,8 @@ Here's a sentence with a footnote. [^1]
 [^1]: This is the footnote.
 
 
+<br><br>
+***
 ## Examples of math in .md
 
 This expression $$\sum_{i=1}^n X_i$$ is inlined but doesn't seem to work. Will flag with IT
@@ -66,6 +77,8 @@ $$
 $$
 
 
+<br><br>
+***
 ## Code on your page
 Adding code into your sentence is simple. 
 ```markdown
@@ -150,7 +163,8 @@ export FI_PROVIDER_PATH=${I_MPI_ROOT}/libfabric
 </details>
 
 
-
+<br><br>
+***
 ## Lists
 ### Creating an ordered list
 1. First item  
@@ -175,9 +189,14 @@ You can also indent by adding a few spaces.
 
 
 An example of a horizontal rule
+```markdown
+***
+```
 ***
 
 
+<br><br>
+***
 ### Creating Unordered Lists
 - First item  
 - Second item  
@@ -195,6 +214,8 @@ An example of a horizontal rule
 - list two - item B
 
 
+<br><br>
+***
 ## Tables
 
 ```markdown
@@ -210,6 +231,8 @@ An example of a horizontal rule
 | Paragraph | Text |
 
 
+<br><br>
+***
 ## A collapsible section with markdown
 This does work within the article template. THe arrow is a bit large, but I will see if there is a way to get it updated.
 Code:
@@ -233,7 +256,9 @@ Example
      * Sub bullets
 </details>
 
-<br>
+
+<br><br>
+***
 
 ## Images
 
@@ -251,6 +276,8 @@ You can also choose to host your screenshots, diagrams, terminal window images i
 ![This is your Alt Text](https://raw.githubusercontent.com/tracyjohnsonidz/devzone-articles/main/diagram-full-workflow-16x9.webp)
 
 
+<br><br>
+***
 ## Videos
 Go to the youtube video and copy the embed code. Just replace the iframe src url with your youtube video URL.
 
