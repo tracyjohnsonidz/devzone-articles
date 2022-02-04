@@ -42,8 +42,9 @@ Subscript
 X^2^
 ```
 
-H~2~O
-X^2^
+Superscript example: H~2~O
+
+Subscript example: X^2^
 
 
 <br><br>
