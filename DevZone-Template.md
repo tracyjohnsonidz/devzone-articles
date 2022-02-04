@@ -71,14 +71,17 @@ Adding code into your sentence is simple.
 ```markdown
 `this is your code`
 ```
+
 Example
 Some `inline code` if you need to put inside a sentence.
 
 
 If you have javascript:
+```markdown
 ```javascript
 // An highlighted block
 var foo = 'bar';
+```
 ```
 
 A very common one on the DevZone is bash
