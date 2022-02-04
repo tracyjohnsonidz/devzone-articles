@@ -183,6 +183,18 @@ An example of a horizontal rule
 
 ## A collapsible section with markdown
 This does work within the article template. THe arrow is a bit large, but I will see if there is a way to get it updated.
+Code:
+```markdown
+<details>
+  <summary>Click to expand!</summary>
+  <br>
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
+```
+Example
 <details>
   <summary>Click to expand!</summary>
   <br>
@@ -192,6 +204,19 @@ This does work within the article template. THe arrow is a bit large, but I will
      * Sub bullets
 </details>
 
+<br>
+
+## Images
+
+To include an image from intel.com, you can do a relative link. Make sure you put all stock imagery, marketing imagery, logos, and photos of people in intel.com where we monitor licensing and expiry dates.
+
+```markdown
+![This is your Alt Text](/content/dam/www/central-libraries/us/en/images/oneapi-kits20211-4x3-rwd.png)
+```
+
+![This is your Alt Text](/content/dam/www/central-libraries/us/en/images/oneapi-kits20211-4x3-rwd.png)
+
+<br>
 
 ## Videos
 Go to the youtube video and copy the embed code. Just replace the iframe src url with your youtube video URL.
