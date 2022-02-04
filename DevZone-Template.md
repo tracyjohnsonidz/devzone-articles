@@ -23,11 +23,20 @@ __This will also be bold__
 
 _You **can** combine them_
 
+Superscript and Subscript doesn't seem to work at the moment.
+
 Superscript
 H~2~O
 
 Subscript
 X^2^
+
+### Links
+```markdown
+My favorite company is [Intel](https://www.intel.com).
+```
+Example:
+My favorite company is [Intel](https://www.intel.com).
 
 ### Block quotes
 This doesn't work with our template. We have requested some code updates so that block quotes actually render properly on articles. I will update this file once that is done.
