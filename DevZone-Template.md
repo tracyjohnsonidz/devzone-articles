@@ -208,7 +208,7 @@ Example
 
 ## Images
 
-To include an image from intel.com, you can do a relative link. Make sure you put all stock imagery, marketing imagery, logos, and photos of people in intel.com where we monitor licensing and expiry dates.
+To include an image from intel.com, you can do a relative link. Make sure you put all stock imagery, marketing imagery, logos, and photos of people in intel.com where we monitor licensing and expiry dates. You can use the relative path to your image.
 
 ```markdown
 ![This is your Alt Text](/content/dam/www/central-libraries/us/en/images/oneapi-kits20211-4x3-rwd.png)
@@ -217,9 +217,9 @@ To include an image from intel.com, you can do a relative link. Make sure you pu
 ![This is your Alt Text](/content/dam/www/central-libraries/us/en/images/oneapi-kits20211-4x3-rwd.png)
 
 <br>
-You can also choose to host your screenshots, diagrams, terminal window images in your repo. Just remember, you are now supporting the live site. Don't move or delete images without updating your article.
+You can also choose to host your screenshots, diagrams, terminal window images in your repo. Just remember, you are now supporting the live site. Don't move or delete images without updating your article. Also, make sure to use the full github URL and not a relative path.
 
-![This is your Alt Text](diagram-full-workflow-16x9.webp)
+![This is your Alt Text](https://github.com/tracyjohnsonidz/devzone-articles/main/diagram-full-workflow-16x9.webp)
 
 
 ## Videos
