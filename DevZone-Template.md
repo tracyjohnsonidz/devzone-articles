@@ -1,4 +1,4 @@
-**Version 2.3**
+**Version 2.4**
 
 Welcome to the full test template for the github md import feature of AEM. This document covers all the styles availalbe and how to implement.
 Note: when loading github url into your page, it may take a number of tries to get the content to refresh. I am working with IT to resolve the bug. If you have just done an update in GitHub, it's best to wait for a few minutes to make sure you sync the latest version.
@@ -100,7 +100,7 @@ Here's a sentence with a footnote. [^2]
 
 This expression $\sum_{i=1}^n X_i$ is inlined but doesn't work at the moment.
 
-
+When this is a full expression, it works fine.
 $$
 \Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
 $$
