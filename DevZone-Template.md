@@ -57,6 +57,10 @@ Subscript example: X^2^
 Example:
 My favorite company is [Intel](https://www.intel.com).
 
+mailto:
+(note for spam reasons, we discourage use of email links)
+[example@gitlab.com](mailto:example@gitlab.com)
+
 
 <br><br>
 ***
@@ -305,7 +309,24 @@ You can also choose to host your screenshots, diagrams, terminal window images i
 
 ![This is your Alt Text](https://raw.githubusercontent.com/tracyjohnsonidz/devzone-articles/main/diagram-full-workflow-16x9.webp)
 
-
+<br><br>
+code graphis are not available for IDZ articles.
+```plantuml
+!define ICONURL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/v2.1.0
+skinparam defaultTextAlignment center
+!include ICONURL/common.puml
+!include ICONURL/font-awesome-5/gitlab.puml
+!include ICONURL/font-awesome-5/java.puml
+!include ICONURL/font-awesome-5/rocket.puml
+!include ICONURL/font-awesome/newspaper_o.puml
+FA_NEWSPAPER_O(news,good news!,node) #White {
+FA5_GITLAB(gitlab,GitLab.com,node) #White
+FA5_JAVA(java,PlantUML,node) #White
+FA5_ROCKET(rocket,Integrated,node) #White
+}
+gitlab ..> java
+java ..> rocket
+```
 <br><br>
 ***
 ## Videos
@@ -346,4 +367,40 @@ To find the video ID, simply right click on the video on developer.intel.com and
   </div>
 </div>
 
-[twitter]: https://twitter.com/wackytrixxie
+multiple videos being added
+<!-- blank line -->
+<figure class="video_container">
+  <iframe src="https://drive.google.com/file/d/0B6m34D8cFdpMZndKTlBRU0tmczg/preview" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+<figure class="video_container">
+  <iframe src="https://drive.google.com/file/d/0B6m34D8cFdpMZndKTlBRU0tmczg/preview" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+<figure class="video_container">
+  <iframe src="https://drive.google.com/file/d/0B6m34D8cFdpMZndKTlBRU0tmczg/preview" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+<!-- blank line -->
+
+this is an anchor
+{: #hello-world}
+```markdown
+{: #hello-world}
+
+```
+**Note:** a note is something that needs to be mentioned but is apart from the context.
+{: .note}
+
+Can we embed code from github, here is a gitlab test.
+<!-- leave a blank line here -->
+<script src="https://gitlab.com/gitlab-org/gitlab-ce/snippets/1717978.js"></script>
+<!-- leave a blank line here -->
+
+{::options parse_block_html="false" /}
+
+<div class="center">
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">Thanks to <a href="https://twitter.com/gitlab">@gitlab</a> for joining <a href="https://twitter.com/RailsGirlsCluj">@RailsGirlsCluj</a>! <a href="https://t.co/NOoiqDWKVY">pic.twitter.com/NOoiqDWKVY</a></p>&mdash; RailsGirlsCluj (@RailsGirlsCluj) <a href="https://twitter.com/RailsGirlsCluj/status/784847271645028352">October 8, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</div>
