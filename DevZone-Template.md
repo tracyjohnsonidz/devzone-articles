@@ -46,6 +46,7 @@ Superscript example: H~2~O
 
 Subscript example: X^2^
 
+:bulb: 🖥️ :d
 
 <br><br>
 ***
@@ -344,3 +345,5 @@ To find the video ID, simply right click on the video on developer.intel.com and
     <iframe src="https://players.brightcove.net/740838651001/default_default/index.html?videoId=6286027295001" allowfullscreen="" allow="encrypted-media" style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; width: 100%; height: 100%;"></iframe>
   </div>
 </div>
+
+[twitter]: https://twitter.com/wackytrixxie
