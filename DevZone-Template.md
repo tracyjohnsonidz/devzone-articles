@@ -264,10 +264,11 @@ You can also indent by adding a few spaces.
 
 
 An example of a horizontal rule
+***
+and then copy below.
 ```markdown
 ***
 ```
-***
 
 
 <br><br>
