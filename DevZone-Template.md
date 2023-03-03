@@ -33,7 +33,7 @@ __This will also be bold__
 
 _You **can** combine them_
 
-Superscript and Subscript doesn't seem to work at the moment.
+Superscript and Subscript. Note the standard markdown treatment doesn't work.
 ```markdown
 Superscript
 H<sup>2</sup>O
