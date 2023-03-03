@@ -267,6 +267,7 @@ An example of a horizontal rule
 ***
 and then copy below.
 ```markdown
+what your markdown looks like for a horizontal rule:
 ***
 ```
 
