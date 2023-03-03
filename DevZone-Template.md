@@ -119,11 +119,11 @@ Footnotes aren't working as expected. I have raised a ticket with IT to see if t
 ```markdown
 Here's a sentence with a footnote.<sup id="a1">[1](#c2)</sup>  
   
-{:.footnote}[^2]: This is the footnote.
+{:.footnote}:[1]This is the footnote.
 ```
 Here's a sentence with a footnote. <sup id="a1">[1](#c2)</sup>  
 <br><br><br><br>
-{:.footnote}: [1]This is another footnote to go with the first.
+[1]This is another footnote to go with the first.
 
 <br><br>
 ***
