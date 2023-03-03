@@ -36,15 +36,15 @@ _You **can** combine them_
 Superscript and Subscript doesn't seem to work at the moment.
 ```markdown
 Superscript
-H~2~O
+H<sub>2</sub>O
 
 Subscript
-X^2^
+X<sub>2</sub>
 ```
 
-Superscript example: H~2~O
+Superscript example: H<sup>2</sup>O
 
-Subscript example: X^2^
+Subscript example: X<sup>2</sup>
 
 :bulb: 🖥️ :d
 
@@ -65,7 +65,7 @@ mailto:
 <br><br>
 ***
 ### Block quotes
-This doesn't work with our template. We have requested some code updates so that block quotes actually render properly on articles. I will update this file once that is done.
+The style of this is incorrect at the moment. We have requested some code updates so that block quotes actually render properly on articles. I will update this file once that is done. For now just use the css attribution format.
 
 ```markdown
 > We're living the future so
@@ -82,8 +82,22 @@ This doesn't work with our template. We have requested some code updates so that
 Another Item we are exploring is the ability to call the css that is used on the site. This isn't working yet. I will update once we have the functionality in place. There are two options IT is exploring. 
 We have requested that IT add this feature so we can call certain css properties into markdown.
 
-{: .greyHighlight}
+{:.greyHighlight}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+```markdown
+{:.greyHighlight}
+Lorem ipsum dolor sit amet
+
+List of styles you can use:
+{:.footnote}
+{:.code-simple}
+{:.outline}
+{:.greyHighlight}
+{:.note}
+{:.intro-paragraph}
+{:.quote-tiny}
+```
 
 
 <br><br>
@@ -91,26 +105,29 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ### Footnotes 
 Footnotes aren't working as expected. I have raised a ticket with IT to see if they can enable this feature.
 ```markdown
-Here's a sentence with a footnote. [^1]  
+Here's a sentence with a footnote.<sup id="a1">[1](#c2)</sup>  
   
-[^1]: This is the footnote.
+{:.footnote}[^2]: This is the footnote.
 ```
-Here's a sentence with a footnote. [^2]  
+Here's a sentence with a footnote. <sup id="a1">[1](#c2)</sup>  
   
-[^2]: This is another footnote to go with the first.
+{:.footnote}[^2]: This is another footnote to go with the first.
 
 <br><br>
 ***
 ## Examples of math in .md
 
-This expression $\sum_{i=1}^n X_i$ is inlined but doesn't work at the moment.
+This expression \\( \sum\_{i=1}^n X\_i \\) is inlined but doesn't work at the moment.
 
 When this is a full expression, it works fine.
 $$
 \Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
 $$
 
-
+```markdown
+for inline expressions
+\\( \sum\_{i=1}^n X\_i \\)
+```
 <br><br>
 ***
 ## Code on your page
