@@ -1,4 +1,4 @@
-**Version 3.3**
+**Version 3.4**
 
 Welcome to the full test template for the github md import feature of AEM. This document covers all the styles availalbe and how to implement.
 Note: when loading github url into your page, it may take a number of tries to get the content to refresh. I am working with IT to resolve the bug. If you have just done an update in GitHub, it's best to wait for a few minutes to make sure you sync the latest version.
@@ -122,8 +122,8 @@ Here's a sentence with a footnote.<sup id="a1">[1](#c2)</sup>
 {:.footnote}[^2]: This is the footnote.
 ```
 Here's a sentence with a footnote. <sup id="a1">[1](#c2)</sup>  
-  
-{:.footnote}[1]: This is another footnote to go with the first.
+<br><br><br><br>
+{:.footnote}: [1]This is another footnote to go with the first.
 
 <br><br>
 ***
