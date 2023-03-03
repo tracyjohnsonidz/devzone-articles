@@ -36,7 +36,7 @@ _You **can** combine them_
 Superscript and Subscript doesn't seem to work at the moment.
 ```markdown
 Superscript
-H<sub>2</sub>O
+H<sup>2</sup>O
 
 Subscript
 X<sub>2</sub>
@@ -44,7 +44,7 @@ X<sub>2</sub>
 
 Superscript example: H<sup>2</sup>O
 
-Subscript example: X<sup>2</sup>
+Subscript example: X<sub>2</sub>
 
 :bulb: 🖥️ :d
 
