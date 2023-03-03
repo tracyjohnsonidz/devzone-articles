@@ -1,4 +1,4 @@
-**Version 3.4**
+**Version 3.5**
 
 Welcome to the full test template for the github md import feature of AEM. This document covers all the styles availalbe and how to implement.
 Note: when loading github url into your page, it may take a number of tries to get the content to refresh. I am working with IT to resolve the bug. If you have just done an update in GitHub, it's best to wait for a few minutes to make sure you sync the latest version.
@@ -54,6 +54,13 @@ ASCII Characters are possible to use as well.
 ### Links
 ```markdown
 [Intel](https://www.intel.com).
+
+[example@gitlab.com](mailto:example@gitlab.com)
+
+[Text with Anchor Link](#text-with-anchor-link)
+
+To specify your anchor
+<a name="live-examples"></a>
 ```
 Example:
 My favorite company is [Intel](https://www.intel.com).
@@ -61,6 +68,10 @@ My favorite company is [Intel](https://www.intel.com).
 mailto:
 (note for spam reasons, we discourage use of email links)
 [example@gitlab.com](mailto:example@gitlab.com)
+
+Anchor links:
+We recommend using the same text as your header for consistency (depending on length).
+[Text with Anchor Link](#text-with-anchor-link)
 
 
 <br><br>
@@ -141,6 +152,7 @@ for inline expressions
 \\( \sum\_{i=1}^n X\_i \\)
 ```
 <br><br>
+You just jumped to an anchor on the page<a name="text-with-anchor-link"></a>
 ***
 ## Code on your page
 Adding code into your sentence is simple. 
