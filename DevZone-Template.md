@@ -80,7 +80,7 @@ The style of this is incorrect at the moment. We have requested some code update
 ***
 ### CSS Attribution - Requested
 
-Another Item you can use is the ability to call the css that is used on the site. This will not render on github, but will work fine on our AEM platform.
+Another Item you can use is the ability to call the css that is used on the site. This will not render on github, but will work fine on our AEM platform. To add inline code style, see the code on your page section. Make sure to add a blank line befor and after your styled block.
 
 {:.greyHighlight}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -90,7 +90,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 List of styles you can use:
 {:.footnote}
-{:.code-simple} - currently not working
 {:.outline}
 {:.greyHighlight}
 {:.note}
@@ -101,8 +100,6 @@ List of styles you can use:
 {:.greyHighlight}Grey Highlight
 
 {:.footnote}Footnote
-
-{:.code-simple}Code Simple doesn't work at the moment
 
 {:.outline}Outline
 
@@ -126,7 +123,7 @@ Here's a sentence with a footnote.<sup id="a1">[1](#c2)</sup>
 ```
 Here's a sentence with a footnote. <sup id="a1">[1](#c2)</sup>  
   
-{:.footnote}[^2]: This is another footnote to go with the first.
+{:.footnote}[1]: This is another footnote to go with the first.
 
 <br><br>
 ***
@@ -420,7 +417,8 @@ this is an anchor
 {:#hello-world}
 ```
 **Note:** a note is something that needs to be mentioned but is apart from the context.
-{:.note}This would be my note. See the css attribution section for more details
+
+{:.note}This would be my note. See the css attribution section for more details. 
 
 We can include code snippets from github that update automagically.
 ```markdown
