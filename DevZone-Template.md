@@ -60,7 +60,7 @@ ASCII Characters are possible to use as well.
 [Text with Anchor Link](#text-with-anchor-link)
 
 To specify your anchor
-<a name="live-examples"></a>
+<a name="text-with-anchor-link"></a>
 ```
 Example:
 My favorite company is [Intel](https://www.intel.com).
