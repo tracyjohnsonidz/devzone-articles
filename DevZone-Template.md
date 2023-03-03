@@ -97,12 +97,15 @@ List of styles you can use:
 {:.intro-paragraph}
 {:.quote-tiny}
 {:.btn btn-primary no-arrow}
+{:.btn btn-secondary no-arrow}
 ```
 {:.greyHighlight}Grey Highlight
 
 {:.footnote}Footnote
 
 {:.code-simple}Code Simple
+
+What it looks like when \\{:.code-simple}Code Simple\\ is used inside a paragraph.
 
 {:.outline}Outline
 
@@ -113,6 +116,8 @@ List of styles you can use:
 {:.quote-tiny}Quote Tiny
 
 {:.btn btn-primary no-arrow}Button Primary
+
+{:.btn btn-secondary no-arrow}Button Secondary
 
 
 <br><br>
