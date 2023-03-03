@@ -80,16 +80,15 @@ We recommend using the same text as your header for consistency (depending on le
 The style of this is incorrect at the moment. We have requested some code updates so that block quotes actually render properly on articles. I will update this file once that is done. For now just use the css attribution format.
 
 ```markdown
-> We're living the future so
-> the present is our past.
+> We're living the future so the present is our past.
 
 Instead use the following:
 {:.quote-tiny}We're living the future so the present is our past.
 ```
 
-> We're living the future so
-> the present is our past.
+> We're living the future so the present is our past.
 
+{:.quote-tiny}We're living the future so the present is our past.
 
 <br><br>
 ***
