@@ -1,4 +1,4 @@
-**Version 3.2**
+**Version 3.3**
 
 Welcome to the full test template for the github md import feature of AEM. This document covers all the styles availalbe and how to implement.
 Note: when loading github url into your page, it may take a number of tries to get the content to refresh. I am working with IT to resolve the bug. If you have just done an update in GitHub, it's best to wait for a few minutes to make sure you sync the latest version.
@@ -90,22 +90,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 List of styles you can use:
 {:.footnote}
-{:.code-simple}
+{:.code-simple} - currently not working
 {:.outline}
 {:.greyHighlight}
 {:.note}
 {:.intro-paragraph}
 {:.quote-tiny}
 {:.btn btn-primary no-arrow}
-{:.btn btn-secondary no-arrow}
 ```
 {:.greyHighlight}Grey Highlight
 
 {:.footnote}Footnote
 
-{:.code-simple}Code Simple
-
-What it looks like when {:.code-simple}Code Simple is used inside a paragraph.
+{:.code-simple}Code Simple doesn't work at the moment
 
 {:.outline}Outline
 
@@ -116,8 +113,6 @@ What it looks like when {:.code-simple}Code Simple is used inside a paragraph.
 {:.quote-tiny}Quote Tiny
 
 {:.btn btn-primary no-arrow}Button Primary
-
-{:.btn btn-secondary no-arrow}Button Secondary
 
 
 <br><br>
@@ -367,7 +362,7 @@ java ..> rocket
 <br><br>
 ***
 ## Videos
-Go to the youtube video and copy the embed code. Just replace the iframe src url with your youtube video URL.
+Go to the youtube video and copy the embed code. Just replace the iframe src url with your youtube video URL. 
 
 ```markdown
 <div>
@@ -420,22 +415,31 @@ multiple videos being added
 <!-- blank line -->
 
 this is an anchor
-{: #hello-world}
+{:#hello-world}
 ```markdown
-{: #hello-world}
-
+{:#hello-world}
 ```
 **Note:** a note is something that needs to be mentioned but is apart from the context.
-{: .note}
+{:.note}This would be my note. See the css attribution section for more details
 
-Can we embed code from github, here is a gitlab test.
+We can include code snippets from github that update automagically.
+```markdown
+<!-- leave a blank line here -->
+<script src="https://gitlab.com/gitlab-org/gitlab-ce/snippets/1717978.js"></script>
+<!-- leave a blank line here -->
+```
+
 <!-- leave a blank line here -->
 <script src="https://gitlab.com/gitlab-org/gitlab-ce/snippets/1717978.js"></script>
 <!-- leave a blank line here -->
 
-{::options parse_block_html="false" /}
 
-<div class="center">
+We can include tweets from individuals in this post. Note be very sure that your source will not update their tweet to show inappropriate content. You can simply use the twitter embed code to do this.
+
+```markdown
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">Thanks to <a href="https://twitter.com/gitlab">@gitlab</a> for joining <a href="https://twitter.com/RailsGirlsCluj">@RailsGirlsCluj</a>! <a href="https://t.co/NOoiqDWKVY">pic.twitter.com/NOoiqDWKVY</a></p>&mdash; RailsGirlsCluj (@RailsGirlsCluj) <a href="https://twitter.com/RailsGirlsCluj/status/784847271645028352">October 8, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+```markdown
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">Thanks to <a href="https://twitter.com/gitlab">@gitlab</a> for joining <a href="https://twitter.com/RailsGirlsCluj">@RailsGirlsCluj</a>! <a href="https://t.co/NOoiqDWKVY">pic.twitter.com/NOoiqDWKVY</a></p>&mdash; RailsGirlsCluj (@RailsGirlsCluj) <a href="https://twitter.com/RailsGirlsCluj/status/784847271645028352">October 8, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
