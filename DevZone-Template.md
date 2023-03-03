@@ -46,6 +46,7 @@ Superscript example: H<sup>2</sup>O
 
 Subscript example: X<sub>2</sub>
 
+ASCII Characters are possible to use as well.
 :bulb: 🖥️ :d
 
 <br><br>
