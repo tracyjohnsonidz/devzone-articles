@@ -82,11 +82,15 @@ The style of this is incorrect at the moment. We have requested some code update
 ```markdown
 > We're living the future so
 > the present is our past.
+
+Instead use the following:
+{:.quote-tiny}We're living the future so the present is our past.
 ```
 
 > We're living the future so
 > the present is our past.
-> 
+
+
 <br><br>
 ***
 ### CSS Attribution - Requested
