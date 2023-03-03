@@ -1,4 +1,4 @@
-**Version 3.6**
+**Version 3.7**
 
 Welcome to the full test template for the github md import feature of AEM. This document covers all the styles availalbe and how to implement.
 Note: when loading github url into your page, it may take a number of tries to get the content to refresh. I am working with IT to resolve the bug. If you have just done an update in GitHub, it's best to wait for a few minutes to make sure you sync the latest version.
@@ -96,9 +96,6 @@ Instead use the following:
 ### CSS Attribution - Requested
 
 Another Item you can use is the ability to call the css that is used on the site. This will not render on github, but will work fine on our AEM platform. To add inline code style, see the code on your page section. Make sure to add a blank line befor and after your styled block.
-
-{:.greyHighlight}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 ```markdown
 {:.greyHighlight}Lorem ipsum dolor sit amet
